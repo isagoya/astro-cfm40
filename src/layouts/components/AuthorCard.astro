@@ -4,7 +4,7 @@ import ImageMod from "./ImageMod.astro";
 import Social from "./Social.astro";
 
 const { data } = Astro.props;
-const { title, image, social } = data.data;
+const { title, image, description, social } = data.data;
 ---
 
 <div
@@ -25,6 +25,7 @@ const { title, image, social } = data.data;
   <h4 class="mb-3">
     <a href={`/authors/${data.slug}`}>{title}</a>
   </h4>
+  <p class="mb-5">{description}</p>
   <p class="mb-4">
     {plainify(data.body?.slice(0, 100))}
   </p>

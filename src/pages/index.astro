@@ -6,13 +6,18 @@ import CallToAction from "@/partials/CallToAction.astro";
 import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import { getEntry } from "astro:content";
-import { FaCheck } from "react-icons/fa";
+import { FaChair } from "react-icons/fa";
+import { TbBowl } from "react-icons/tb";
+import { PiGuitarDuotone } from "react-icons/pi";
+
 
 interface Homepage {
   banner: {
     title: string;
+    dates: string;
     content: string;
     image: string;
+    image2: string;
     button: Button;
   };
   features: Feature[];
@@ -31,6 +36,7 @@ const { banner, features }: Homepage = homepage.data;
       <div class="row justify-center">
         <div class="mb-16 text-center lg:col-7">
           <h1 set:html={markdownify(banner.title)} class="mb-4" />
+          <h5 set:html={markdownify(banner.dates)} class="mb-4" />
           <p set:html={markdownify(banner.content)} class="mb-8" />
           {
             banner.button.enable && (
@@ -49,12 +55,19 @@ const { banner, features }: Homepage = homepage.data;
         </div>
         {
           banner.image && (
-            <div class="col-12">
+            <div class="col-12 banner">
               <ImageMod
                 src={banner.image}
                 height={380}
                 width={1200}
                 alt="banner"
+                format="webp"
+              />
+              <ImageMod
+                src={banner.image2}
+                height={380}
+                width={276}
+                alt="logo"
                 format="webp"
               />
             </div>
@@ -88,7 +101,9 @@ const { banner, features }: Homepage = homepage.data;
               <ul>
                 {feature.bulletpoints.map((bullet: string) => (
                   <li class="relative mb-4 pl-6">
-                    <FaCheck className={"absolute left-0 top-1.5"} />
+                    {index % 3 === 0 && <FaChair className={"absolute left-0 top-1.5"} /> }
+                    {index % 3 === 1 && <TbBowl className={"absolute left-0 top-1.5"} /> }
+                    {index % 3 === 2 && <PiGuitarDuotone className={"absolute left-0 top-1.5"} /> }
                     <span set:html={markdownify(bullet)} />
                   </li>
                 ))}

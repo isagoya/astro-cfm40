@@ -24,3 +24,8 @@ package-lock.json
 
 # ignore .astro directory
 .astro
+
+# 
+.vscode/settings.json
+
+public/*/*_bk.png

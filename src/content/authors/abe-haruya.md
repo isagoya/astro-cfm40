@@ -1,8 +1,8 @@
 ---
-title: John Doe
-email: johndoe@email.com
+title: 阿部 春弥
+email: ""
 image: "/images/avatar.png"
-description: this is meta description
+description: 陶器
 social:
   - name: github
     icon: FaGithub
