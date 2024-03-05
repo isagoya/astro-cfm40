@@ -1,0 +1,20 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/matsumotocrafts"
+    },
+    {
+      "name": "twitter",
+      "icon": "FaTwitter",
+      "link": "https://twitter.com/craftsfair_m"
+    },
+    {
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/craftsfair_matsumoto/"
+    }
+
+  ]
+}

@@ -1,0 +1,29 @@
+---
+import ExhibitorCard from "@/components/ExhibitorCard.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getEntry } from "astro:content";
+
+const COLLECTION_FOLDER = "exhibitors";
+
+const exhibitorIndex = await getEntry(COLLECTION_FOLDER, "-index");
+const exhibitors = await getSinglePage(COLLECTION_FOLDER);
+---
+
+<Base title={exhibitorIndex.data.title}>
+  <PageHeader title={exhibitorIndex.data.title} />
+  <section class="section-sm pb-0">
+    <div class="container">
+      <div class="row justify-center">
+        {
+          exhibitors.map((exhibitor) => (
+            <div class="mb-14 md:col-6 lg:col-4">
+              <ExhibitorCard data={exhibitor} />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>
