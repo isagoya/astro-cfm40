@@ -28,7 +28,7 @@ features:
       - "5月の空と風、ときには雨、あがたの森公園に広がる野外の展示"
     button:
       enable: true
-      label: "出展者リスト"
+      label: "出展者リスト（4月中旬掲載予定）"
       link: "#"
 
   - title: "手しごとの森"
@@ -60,7 +60,7 @@ features:
           渡辺珠美（染織）"
     button:
       enable: true
-      label: "詳しく！"
+      label: "詳しく！ comming soon!"
       link: "/authors"
 
   - title: "五月亭"
@@ -72,8 +72,8 @@ features:
       - "40周年は日曜の朝にも… 26日(日) 11:00~ 13:00~"
       - "ボスダブ・児玉瑞木・Da Rue・ペンペンドンピー"
       - "コントラバスデュオ【二】・PineTree Steelpan Band"
-      # - "… ドリンクと軽食"
-      - "〇〇cafe・△△食堂"
+      - "… フード＆ドリンク"
+      # - "〇〇cafe・△△食堂"
     button:
       enable: true
       label: "出演者・フード＆ドリンク"
