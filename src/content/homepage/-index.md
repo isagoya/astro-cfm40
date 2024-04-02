@@ -25,10 +25,9 @@ features:
       - "220余人のクラフト作家の作品がならびます"
       - "作品に触れる、作者と語る"
       - "5月の空と風、ときには雨、あがたの森公園に広がる野外の展示"
-      - "<a href='/#'>出展者一覧ページ（4月初旬公開予定）&nbsp;&nbsp;&nbsp;→ </a>"
     button:
       enable: true
-      label: "出展者一覧ページ（4月初旬公開予定）"
+      label: "出展者一覧ページ（4月中旬公開予定）"
       link: "/#"
 
   - title: "手しごとの森"
@@ -60,7 +59,7 @@ features:
           渡辺珠美（染織）"
     button:
       enable: true
-      label: "参加作家紹介 (順次掲載予定)"
+      label: "参加作家紹介 (順次掲載)"
       link: "/exhibitors"
 
   - title: "五月亭"
@@ -72,8 +71,8 @@ features:
       - "40周年は日曜の朝にも… 26日(日) 11:00~ 13:00~"
       - "ボスダブ・児玉瑞木・Da Rue・ペンペンドンピー"
       - "コントラバスデュオ【二】・PineTree Steelpan Band"
-      # - "… フード＆ドリンク"
-      - "〇〇cafe・△△食堂"
+      - "軽食と飲み物"
+      # - "〇〇cafe・△△食堂"
     button:
       enable: true
       label: "出演者・フード＆ドリンク"
