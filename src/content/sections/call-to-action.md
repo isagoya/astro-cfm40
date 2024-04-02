@@ -1,10 +1,10 @@
 ---
-enable: false
-title: "Ready to build your next project with Astro?"
+enable: true
+title: "40年めの手ぬぐいとTシャツ"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "毎年好評の手ぬぐいが今年はふたつのバージョンで登場します。それに加えて購入のリクエストの多いスタッフTシャツを色を変えて販売いたします。"
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
+  label: "詳しく！(準備中)"
+  link: "#"
 ---

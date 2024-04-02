@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Crafts Fair Matsumoto 2024"
+  title: "40th Crafts Fair Matsumoto 2024"
   dates: "2024年 5月25日(土) • 26日(日)"
   content: "木漏れ日のなかで 芝生のうえで<br>ときには雨が 風が吹くけど<br>おもいおもいに作品をならべる2日間。<br>気がつけば40年が経ちました。<br>
             "
@@ -10,29 +10,29 @@ banner:
   image: "/images/banner.png"
   image2: "/images/logo_40th.jpg"
   button:
-    enable: false
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    enable: true
+    label: "クラフトフェアまつもとHP"
+    link: "https://craftsfair.matsumoto-crafts.com/"
 
 # Features
 features:
   - title: "クラフトフェアまつもと"
-    image: "/images/2024DM.jpg"
-    content: "1回目のクラフトフェアまつもとは1985年、あがたの森公園の芝生にならぶ45人の作品から始まりました。いまではそのころの雰囲気を思い起こすのがむずかしいほどの大きな催しです。<br>今年のDMのオブジェクトは、椅子を作るひと、、そのころのひとりなのかも知れません。<br>
-    時々の変化を受け入れかつ、翻弄されながらも続いてきたクラフトフェアまつもと。いまも変わらないのは、作り手と使い手があがたの森で語らい交わる景色です。"
+    image: "/images/2024DM.png"
+    content: "はじめてのクラフトフェアまつもとは1985年、あがたの森公園の芝生にならぶ45人の作品から始まりました。<br>2024年のDMは、椅子を作るひと、、そのころのひとりなのかも知れません。いまも変わらないのは、作り手と使い手があがたの森で語らい交わる景色です。 <br>"
     bulletpoints:
       - "5月25日(土) • 10:00 - 17:00"
       - "5月26日(日) • 10:00 - 16:00"
       - "220余人のクラフト作家の作品がならびます"
       - "作品に触れる、作者と語る"
       - "5月の空と風、ときには雨、あがたの森公園に広がる野外の展示"
+      - "<a href='/#'>出展者一覧ページ（4月初旬公開予定）&nbsp;&nbsp;&nbsp;→ </a>"
     button:
       enable: true
-      label: "出展者リスト（4月中旬掲載予定）"
-      link: "#"
+      label: "出展者一覧ページ（4月初旬公開予定）"
+      link: "/#"
 
   - title: "手しごとの森"
-    image: "/images/tesigotonomori.jpg"
+    image: "/images/tesigotonomori.png"
     content: "あがたの森に集まる人、<br>もの、こころがつくるもうひとつの「森」"
     bulletpoints:
       - "40周年に、もう一度出逢いたい、出逢ってほしい20名"
@@ -60,11 +60,11 @@ features:
           渡辺珠美（染織）"
     button:
       enable: true
-      label: "詳しく！ comming soon!"
-      link: "/authors"
+      label: "参加作家紹介 (順次掲載予定)"
+      link: "/exhibitors"
 
   - title: "五月亭"
-    image: "/images/satukitei.jpg"
+    image: "/images/satukitei.png"
     content: "五月亭がもどってくる!!<br>涼しい風と音楽と、芝生のステージで踊りましょ〜！"
     bulletpoints:
       - "五月の夕暮れ 芝生の上の交流会"
@@ -72,8 +72,8 @@ features:
       - "40周年は日曜の朝にも… 26日(日) 11:00~ 13:00~"
       - "ボスダブ・児玉瑞木・Da Rue・ペンペンドンピー"
       - "コントラバスデュオ【二】・PineTree Steelpan Band"
-      - "… フード＆ドリンク"
-      # - "〇〇cafe・△△食堂"
+      # - "… フード＆ドリンク"
+      - "〇〇cafe・△△食堂"
     button:
       enable: true
       label: "出演者・フード＆ドリンク"
