@@ -14,6 +14,7 @@ const { title, image, date, author, categories } = data.data;
 ---
 
 <div class="bg-body dark:bg-darkmode-body">
+  <a href={`/${blog_folder}/${data.slug}`}>
   {
     image && (
       <ImageMod
@@ -26,18 +27,19 @@ const { title, image, date, author, categories } = data.data;
       />
     )
   }
+  </a>
   <h4 class="mb-3">
     <a href={`/${blog_folder}/${data.slug}`}>
       {title}
     </a>
   </h4>
   <ul class="mb-4">
-    <li class="mr-4 inline-block">
+    <!-- <li class="mr-4 inline-block">
       <a href={`/authors/${slugify(author)}`}>
         <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
         {humanize(author)}
       </a>
-    </li>
+    </li> -->
     <li class="mr-4 inline-block">
       <FaRegFolder className={"mr-2 -mt-1 inline-block"} />
       {
