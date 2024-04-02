@@ -5,57 +5,30 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "クラフトフェアまつもと",
+      "url": "/#クラフトフェアまつもと"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "手しごとの森",
+      "url": "/#手しごとの森"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "exhibitor",
-          "url": "/exhibitor"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
-        }
-      ]
+      "name": "五月亭",
+      "url": "/#五月亭"
+    },
+    {
+      "name": "手ぬぐいとTシャツ",
+      "url": "/#call_to_action"
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "",
+      "url": ""
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "",
+      "url": ""
     }
   ]
 }
