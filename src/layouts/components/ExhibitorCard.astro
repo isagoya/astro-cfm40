@@ -16,14 +16,15 @@ const { title, image, description, social } = data.data;
         class="mx-auto mb-6 rounded"
         src={image}
         alt={title}
-        width={120}
-        height={120}
+        width={240}
+        height={240}
         format="webp"
       />
     )
   }
   <h4 class="mb-3">
-    <a href={`/exhibitors/${data.slug}`}>{title}</a>
+    <!-- <a href={`/exhibitors/${data.slug}`}>{title}</a> -->
+    {title}
   </h4>
   <p class="mb-5">{description}</p>
   <p class="mb-4">

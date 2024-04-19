@@ -1,20 +1,24 @@
 ---
-title: 県 森江
+title: 阿部 春弥
 email: ""
-image: "/images/avatar.png"
-description: 陶器
+image: "/images/exhibitors/abe-haruya2.jpg"
+description: 陶磁
 social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com
+  - name: website
+    icon: FaGlobe
+    link: https://haruyaabe.com
 
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com
+  # - name: twitter
+  #   icon: FaTwitter
+  #   link: https://twitter.com
 
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://linkedin.com
+  # - name: linkedin
+  #   icon: FaLinkedin
+  #   link: https://linkedin.com
+
+  - name: instagram
+    icon: FaInstagram
+    link: https://www.instagram.com/abe_haruya/
 ---
 
-lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
+長野県上田市の山間地域で、陶器土を使い制作をしています。うつわや箸置きを中心に、照明、時計などインテリアに使える作品も制作しています。

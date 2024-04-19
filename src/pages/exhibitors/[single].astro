@@ -25,11 +25,11 @@ const { title, social, meta_title, description, image } = exhibitor.data;
 const { Content } = await exhibitor.render();
 
 // get all posts by exhibitor
-const BLOG_FOLDER = "blog";
-const posts = await getSinglePage(BLOG_FOLDER);
-const postFilterByexhibitor = posts.filter(
-  (post) => slugify(post.data.exhibitor) === slugify(title),
-);
+// const BLOG_FOLDER = "blog";
+// const posts = await getSinglePage(BLOG_FOLDER);
+// const postFilterByexhibitor = posts.filter(
+//   (post) => slugify(post.data.author) === slugify(title),
+// );
 ---
 
 <Base
@@ -64,7 +64,7 @@ const postFilterByexhibitor = posts.filter(
         </div>
       </div>
 
-      <div class="row justify-center pb-16 pt-14">
+      <!-- <div class="row justify-center pb-16 pt-14">
         {
           postFilterByexhibitor.map((post) => (
             <div class="mb-12 md:col-6 lg:col-4">
@@ -72,7 +72,7 @@ const postFilterByexhibitor = posts.filter(
             </div>
           ))
         }
-      </div>
+      </div> -->
     </div>
   </section>
 </Base>

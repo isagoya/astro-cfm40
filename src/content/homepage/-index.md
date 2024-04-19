@@ -27,11 +27,11 @@ features:
       - "5月の空と風、ときには雨、あがたの森公園に広がる野外の展示"
     button:
       enable: true
-      label: "出展者一覧ページ（4月中旬公開予定）"
-      link: "/#"
+      label: "出展者一覧"
+      link: "https://matsumoto-crafts.com/exhibitors/2024/"
 
   - title: "手しごとの森"
-    image: "/images/tesigotonomori.png"
+    image: "/images/tesigotonomori2.png"
     content: "あがたの森に集まる人、<br>もの、こころがつくるもうひとつの「森」"
     bulletpoints:
       - "40周年に、もう一度出逢いたい、出逢ってほしい20名"
@@ -59,7 +59,7 @@ features:
           渡辺珠美（染織）"
     button:
       enable: true
-      label: "参加作家紹介 (順次掲載)"
+      label: "参加作家紹介"
       link: "/exhibitors"
 
   - title: "五月亭"

@@ -1,5 +1,5 @@
 ---
-title: "Blog Posts"
+title: "投稿"
 meta_title: ""
-description: "this is meta description"
+description: ""
 ---

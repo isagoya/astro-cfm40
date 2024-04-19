@@ -13,6 +13,8 @@ export interface ISocial {
   {
     source.map((social: ISocial) => (
       <li>
+        <!-- social.name が空文字の時にはソーシャルアイコンを表示しない --> 
+        {social.name == "" ? "" :
         <a
           aria-label={social.name}
           href={social.link}
@@ -22,6 +24,8 @@ export interface ISocial {
           <span class="sr-only">{social.name}</span>
           <DynamicIcon className="inline-block" icon={social.icon} />
         </a>
+        }
+
       </li>
     ))
   }

@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "© 2024 [Crafts Fair Matsumoto](https://craftsfair.matsumoto-crafts.com)"
   },
 
   "navigation_button": {
@@ -40,8 +40,8 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "crafts.fair.matsumoto",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "40th crafts fair matsumoto"
   }
 }
