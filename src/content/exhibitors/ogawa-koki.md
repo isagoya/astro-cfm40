@@ -17,9 +17,9 @@ social:
   #   icon: FaTwitter
   #   link: 
 
-  # - name: instagram
-  #   icon: FaInstagram
-  #   link: 
+  - name: instagram
+    icon: FaInstagram
+    link: https://www.instagram.com/affordance_play/
 ---
 
 東京でaffordanceを創設後、故郷である福岡県福津市に工房を移設しました。「しっかりしているけど柔らかい、しなやかな革」を理想として制作しています。
