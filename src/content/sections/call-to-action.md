@@ -5,6 +5,6 @@ image: "/images/call-to-action.png"
 description: "毎年好評の手ぬぐいが今年はふたつのバージョンで登場します。それに加えて購入のリクエストの多いスタッフTシャツを色を変えて販売いたします。"
 button:
   enable: true
-  label: "詳しく！(準備中)"
-  link: "#"
+  label: "詳しく！"
+  link: "/goods"
 ---

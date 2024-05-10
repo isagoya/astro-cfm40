@@ -1,0 +1,41 @@
+---
+import { plainify } from "@/lib/utils/textConverter";
+import ImageMod from "./ImageMod.astro";
+// import Social from "./Social.astro";
+import '../../styles/my_style.css';
+
+const { data } = Astro.props;
+const { title, color, print_color, image, description } = data.data;
+---
+
+<div
+  class="rounded bg-theme-light p-8 text-center dark:bg-darkmode-theme-light"
+>
+  <a href={`/goods/${data.slug}`}>
+  {
+    image && (
+      <ImageMod
+        class="mx-auto mb-6 rounded"
+        src={image}
+        alt={title}
+        width={600}
+        height={600}
+        format="jpeg"
+      />
+    )
+  }
+  </a>
+  <h6 class="mb-1">
+    <!-- <a href={`/goods/${data.slug}`}>{title}</a> -->
+    <a href={`/goods/${data.slug}`}>{title} • {color}</a>
+  </h6>
+  <p class="row justify-center mb-5">
+    <!-- <div class="">{color}</div> -->
+    {print_color? <div class="text-sm"><span class="text-xs">プリントカラー : </span> {print_color}</div>: ""}
+  </p>
+  <!-- <p class="mb-5">{description}</p> -->
+  <p class="mb-4">
+    {plainify(data.body?.slice(0, 100))}
+  </p>
+  <!-- <Social source={social} className="social-icons" /> -->
+</div>

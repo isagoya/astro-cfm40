@@ -11,4 +11,13 @@
     height: 100%;
     transform: translate(-50%, 0%);
   }
+
+  section.goods .bg-theme-light {
+    background-color: rgb(255, 255, 255);
+  }
+
+  section.goods :is(.dark .dark\:bg-darkmode-theme-light) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+  }
   

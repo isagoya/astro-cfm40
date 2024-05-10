@@ -61,7 +61,6 @@ const exhibitorsCollection = defineCollection({
   }),
 });
 
-
 // Pages collection schema
 const pagesCollection = defineCollection({
   schema: z.object({
@@ -73,10 +72,24 @@ const pagesCollection = defineCollection({
   }),
 });
 
+// Goods collection schema
+const goodsCollection = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    color: z.string().optional(),
+    print_color: z.string().optional(),
+    image: z.string().optional(),
+    description: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 // Export collections
 export const collections = {
   blog: blogCollection,
   authors: authorsCollection,
   exhibitors: exhibitorsCollection,
   pages: pagesCollection,
+  goods: goodsCollection,
 };

@@ -31,9 +31,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Sawarabi Gothic:wght@400;600",
+      "primary": "Heebo:wght@400;600",
       "primary_type": "sans-serif",
-      "secondary": "M PLUS 1p:wght@500;700",
+      "secondary": "Signika:wght@500;700",
       "secondary_type": "sans-serif"
     },
     "font_size": {

@@ -1,0 +1,51 @@
+---
+import GoodsCard from "@/components/GoodsCard.astro";
+import Base from "@/layouts/Base.astro";
+import { getSinglePage } from "@/lib/contentParser.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+import { getEntry } from "astro:content";
+import ImageMod from "@/components/ImageMod.astro";
+
+const COLLECTION_FOLDER = "goods";
+
+const authorIndex = await getEntry(COLLECTION_FOLDER, "-index");
+const authors = await getSinglePage(COLLECTION_FOLDER);
+const { Content } = await authorIndex.render();
+
+---
+
+<Base title={authorIndex.data.title}>
+  <PageHeader title={authorIndex.data.title} />
+  <section class=`section-sm pb-0 ${authorIndex.data.meta_title}`>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-justify md:col-10 lg:col-6">
+          {
+            authorIndex.data.image && (
+              <ImageMod
+                class="mx-auto mb-6 rounded-lg"
+                src={authorIndex.data.image}
+                width={400}
+                height={400}
+                alt={authorIndex.data.title}
+                format="png"
+              />
+            )
+          }
+          <div class="content">
+            <Content />
+          </div>
+      </div>
+          
+      <div class="row justify-center md:col-10 lg:col-10">
+        {
+          authors.map((author) => (
+            <div class="mb-14 md:col-10 lg:col-6">
+              <GoodsCard data={author} />
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>
